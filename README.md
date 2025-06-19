@@ -102,7 +102,7 @@ A Windows Forms application built with C# for managing driver licensing processe
 3. **Database Configuration**  
    The application uses the following default connection string:  
    `Server=.;Database=DVLD;User Id=sa;Password=123456;`  
-   If needed, you can modify it in the `DataAccessSettings.cs` file, located inside the `DVLD.Data` project.
+   If needed, you can modify it in the `DataAccessSettings.cs` file, located inside the `DVLD_DB.Data` project.
 
 
 
