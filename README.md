@@ -86,7 +86,26 @@ A Windows Forms application built with C# for managing driver licensing processe
 - Users
 
 ## Installation Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abdulrahman-khaled-dev/DVLD.git
+
+1. **Clone the repository**  
+   Open your terminal or Git Bash and run:  
+   `git clone https://github.com/abdulrahman-khaled-dev/DVLD.git`  
+
+
+2. **Restore the Database**  
+   - Launch SQL Server Management Studio (SSMS).  
+   - Connect to your SQL Server instance.  
+   - Open the SQL script file located at:  
+     `D:\Visual Studio Projects\DVLD\Database\DVLD.sql`  
+   - Execute the script to create and initialize the `DVLD` database.
+
+3. **Database Configuration**  
+   The application uses the following default connection string:  
+   `Server=.;Database=DVLD;User Id=sa;Password=123456;`  
+   If needed, you can modify it in the `DataAccessSettings.cs` file, located inside the `DVLD.Data` project.
+
+
+
+✅ The application should now be ready to use.
+
 
